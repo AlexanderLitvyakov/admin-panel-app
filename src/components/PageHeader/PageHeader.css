@@ -1,0 +1,17 @@
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.page-header__text {
+    line-height: 2rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    letter-spacing: -0.0125rem;
+    color: var(--background-admin-panel-black);
+}
